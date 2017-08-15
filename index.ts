@@ -17,6 +17,11 @@ const db = new Loki(`${UPLOAD_PATH}/${DB_NAME}`, { persistenceMethod: 'fs' });
 
 const app = express();
 app.use(cors());
+app.set('port', (process.env.PORT || 3000));
+
+app.get('/api/up', (req, res) => {
+    res.status(200).json({ status: 'up' });
+})
 
 app.post('/api/file', upload.single('file'), async (req, res) => {
     try {
@@ -88,6 +93,6 @@ app.delete('/api/files', (req, res) => {
     res.sendStatus(200);
 })
 
-app.listen(3000, function () {
-    console.log('Starting web server on port 3000!');
+app.listen(app.get('port'), function() {
+    console.log(`Starting web server on port ${app.get('port')}`);
 });
