@@ -1,1 +1,1 @@
-web: node dist/index.js
+web: ./node_modules/.bin/tsc --module commonjs --outDir dist/ --sourceMap --target ES6 index.ts && node dist/index.js
