@@ -2,5 +2,11 @@
     "name": "Secure file upload with Metadefender Cloud APIs",
     "description": "Example of file analysis with Metadefender Cloud for file upload API",
     "repository": "https://github.com/kittrCZ/mcl-file-upload-example",
-    "keywords": ["node", "express", "static"]
+    "keywords": [
+        "file",
+        "upload",
+        "file security"
+    ],
+    "website": "https://www.metadefender.com/",
+    "logo": "https://cdn.metadefender.com/6.31.0/assets/img/svg/metadefender.svg",
 }
