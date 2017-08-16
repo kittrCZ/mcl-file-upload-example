@@ -1,0 +1,6 @@
+{
+    "name": "Secure file upload with Metadefender Cloud APIs",
+    "description": "Example of file analysis with Metadefender Cloud for file upload API",
+    "repository": "https://github.com/kittrCZ/mcl-file-upload-example",
+    "keywords": ["node", "express", "static"]
+}
