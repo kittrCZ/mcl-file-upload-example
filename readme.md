@@ -2,6 +2,8 @@
 
 File upload functionality is one of the most common use-cases for APIs. In this example we demostrate how you can integrate file upload API with Metadefender Cloud.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Metadefender Cloud API Key
 
 In order to use [Metadefender Cloud Public APIs](https://www.metadefender.com/public-api#!/about), you have to first register for OPSWAT account. Following process describes how to obtain your API key:
