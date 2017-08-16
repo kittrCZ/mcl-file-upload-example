@@ -8,11 +8,5 @@
         "file security"
     ],
     "website": "https://www.metadefender.com/",
-    "logo": "https://cdn.metadefender.com/6.31.0/assets/img/svg/metadefender.svg",
-    "env": {
-        "API_KEY": {
-          "description": "Metadefender Cloud API Key",
-          "generator": "secret"
-        },
-    }
+    "logo": "https://cdn.metadefender.com/6.31.0/assets/img/svg/metadefender.svg"
 }
