@@ -1,4 +1,6 @@
-# File upload example for Metadefender Cloud
+# Secure API file upload example with Metadefender Cloud APIs
+
+File upload functionality is one of the most common use-cases for APIs. In this example we demostrate how you can integrate file upload API with Metadefender Cloud.
 
 ## Metadefender Cloud API Key
 
@@ -14,3 +16,17 @@ In order to use [Metadefender Cloud Public APIs](https://www.metadefender.com/pu
 
 1. [Scanning a file by file upload](https://www.metadefender.com/public-api#!/scanning-a-file-by-file-upload)
 2. [Retrieving scan reports](https://www.metadefender.com/public-api#!/retrieve-scan-report-using-data-id)
+
+## Run the code
+
+```
+> git clone
+> cd ...
+> yarn install
+> yarn start
+yarn start v0.27.5
+$ tsc
+$ node dist/index.js
+Starting web server on port 3000
+
+```
